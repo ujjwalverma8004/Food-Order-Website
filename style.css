@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#logo {
+    margin: -4px 34px;
+    /* border: 3px solid black; */
+}
+
+#logo img {
+    /* border: 3px solid red; */
+    margin: 20px 30px;
+    height: 54px;
+    width: 54px;
+}
+
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    border-radius: 0px 25px;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li {
+
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    /* border: 2px solid red; */
+    color: white;
+    display: block;
+    padding: 5px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Faustina', serif;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 588px;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('img/Veggies.jpg') no-repeat center center/cover;
+    height: 90%;
+    width: 100%;
+    top: 0pxss;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.9;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    /* font-family: 'Tilt Prism', cursive; */
+    font-family: 'Oswald', sans-serif;
+}
+
+#home p {
+    color: aliceblue;
+    font-size: 1.4rem;
+    background-color: #00000029;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Faustina', serif;
+    padding: 2px 12px;
+
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 2px solid white;
+    color: white;
+    background-color: #882a2ab5;
+    border-radius: 11px;
+    margin: 12px;
+    /* cursor: pointer; */
+}
+
+.btn:hover {
+    background-color: #882a2ab5;
+    cursor: pointer;
+    /* color: black; */
+    /* font-style:bold italic;
+    font-weight: 5;
+    font-size: 15px;
+    animation: normal;
+    animation-duration: 1s; */
+    transform: scale(1.04);
+    transform-style: inherit;
+}
+
+#services {
+    margin: 30px;
+    display: flex;
+
+
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 30px;
+    background-color: #fbf7f7;
+    margin: 2px 5px;
+    border-radius: 23px;
+    height: 358px;
+    width: 33%;
+
+}
+
+#services .box h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+#services .box p {
+    font-family: 'Faustina', serif;
+
+}
+
+#services .box img:hover {
+    cursor: pointer;
+    border: 1px solid grey;
+
+}
+
+#services .box img {
+    height: 220px;
+    display: block;
+    margin: auto;
+    border-radius: 10px 30px;
+
+}
+
+
+#client-section {
+    height: 400px;
+
+}
+
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('img/bg11.jpg') center center/cover;
+    width: 100%;
+    height: 58%;
+    z-index: -1;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+}
+
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#client-section h1{
+    margin: 5px 590px;
+    /* display: inline;
+    margin: auto; */
+}
+
+
+#clients img {
+    height: 280px;
+    width: 100%;
+
+}
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('img/contact-us-2993000.jpg') center center/cover;
+    opacity: 0.6;
+}
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding-bottom: 30px;
+    font-family: 'Faustina', serif;
+}
+
+#contact-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+    font-family: 'Faustina', serif;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#contact-box input{
+    width: 100%;
+    padding: 0.3rem;
+    font-family: 'Faustina', serif;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Faustina', serif;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+.h-primary {
+    font-size: 3.2rem;
+    padding: 15px;
+    font-family: 'Faustina', serif;
+}
+
+
+
+.h-secondary {
+    font-size: 2.2rem;
+    padding: 15px;
+    font-family: 'Faustina', serif;
+}
+
+
+.center {
+    text-align: center;
+}

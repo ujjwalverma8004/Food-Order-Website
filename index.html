@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Food</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 900px)"
+      href="phone.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Faustina:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="img\Logo2.png" alt="www.ujjwalFOODS.com" />
+      </div>
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#services-container">Services</a></li>
+        <li class="item"><a href="#client-section">Our Clients</a></li>
+        <li class="item"><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1 class="h-primary">Welcome to our meal website</h1>
+      <p>
+        Dive into a world of flavors as you browse through our extensive
+        collection of recipes, curated from various cuisines around the globe.
+        From mouthwatering Italian pasta dishes to spicy Indian curries, from
+        delicate French pastries to hearty American BBQ, we've got recipes to
+        satisfy every palate.
+      </p>
+      <p>
+        Whether you're a novice in the kitchen or a seasoned pro, you'll find inspiration and step-by-step guides to create culinary masterpieces.
+      </p>
+      <button class="btn">Order now</button>
+    </section>
+
+    <section class="services-container">
+      <h1 class="h-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="img/img1.jpg" alt="" />
+          <h2 class="h-secondary center">Desserts</h2>
+          <p class="center">
+            Desserts are the fairy tales of the kitchen—a happily-ever-after to
+            supper.
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/img3.jpg" alt="" />
+          <h2 class="h-secondary center">Italian</h2>
+          <p class="center">
+            Italian cooking can best be described as a celebration of local
+            flavors held together by a singular appreciation of high-quality,
+            seasonal ingredients, presented in elegant simplicity.
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/img2.jpg" alt="" />
+          <h2 class="h-secondary center">Chinese</h2>
+          <p class="center">
+            Traditional Chinese food has to always be fresh. Most dishes are
+            filled with huge quantities of vegetables, grass-fed meats, seafood
+            and herbs and spices.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h1 class="h-primary centre">Out Sponsors</h1>
+      <div id="clients">
+        <div class="client-item">
+          <img src="img/clients-logo-removebg-preview.png" alt="" />
+        </div>
+        <!-- <div class="client-item">
+                <img src="img/clients12.jpg" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/clients13.jpg" alt="">
+            </div> -->
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="h-primary center">Contact us</h1>
+      <div id="contact-box">
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="name"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number: </label>
+            <input
+              type="phone"
+              name="name"
+              id="phone"
+              placeholder="Enter your phone"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" cols="30" rows="6"></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="center">
+        Copyright &copy; www.ujjwalmeal.com. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
